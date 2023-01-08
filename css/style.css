@@ -23,7 +23,7 @@ header{
   padding: 0 1%;
   display: flex;
   align-items: center;
-  z-index: 1000;
+  z-index: 999;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   transition: all.3s;
   justify-content: space-between;
@@ -101,10 +101,6 @@ header .navbar ul li:hover > ul{
   background-position: center;
   text-align:center;
   height: 800px;
-}
-.home .maxwidth{
-  width: 100%;
-  display: flex;
 }
 .home-content{
 text-align: center;
@@ -435,8 +431,8 @@ margin: auto;
     margin-left: 13px;
   }
   .aboutleft img{
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
   }
   .desc{
     font-size: clamp(0.625rem, 0.4337rem + 0.8163vw, 1.25rem);
@@ -450,6 +446,9 @@ margin: auto;
   }
   .section-favorites{
     height: 100%;
+  }
+  .social-media i{
+    font-size: 100%;
   }
 }
 /*footer*/
